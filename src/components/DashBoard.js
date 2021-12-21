@@ -1,20 +1,20 @@
 import React, { Component } from "react";
-import CreateProjectButton from "./project/CreateProjectButton";
-import ProjectItem from "./project/ProjectItem";
+import CreateAwardButton from "./award/CreateAwardButton";
+import AwardItem from "./award/AwardItem";
 
 class DashBoard extends Component {
   render() {
     return (
-      <div className="projects">
+      <div className="awards">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
               <h1 className="display-4 text-center">Award Interpreter</h1>
               <br />
-              <CreateProjectButton />
+              <CreateAwardButton />
               <br />
               <hr />
-              <ProjectItem />
+              <AwardItem />
             </div>
           </div>
         </div>

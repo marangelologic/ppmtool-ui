@@ -3,7 +3,7 @@ import DashBoard from "./components/DashBoard";
 import Header from "./components/layout/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import AddProject from "./components/project/AddProject";
+import AddAward from "./components/award/AddAward";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route exact path="/addProject" element={<AddProject />} />
+          <Route exact path="/addProject" element={<AddAward />} />
           <Route exact path="/dashboard" element={<DashBoard />} />
         </Routes>
       </div>

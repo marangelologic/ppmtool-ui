@@ -101,3 +101,12 @@ img {
 .form-control::placeholder {
   color: #bbb !important;
 }
+
+input[type="text"],
+input[type="date"] {
+  margin: 5px 0px 5px 0px;
+}
+
+.left-align-label {
+  text-align: left;
+}
